@@ -133,15 +133,6 @@ module pcie_phy # (
 // Wire Declarations
   wire                                        pipe_mmcm_rst_n;
 
-  wire                                        cfg_turnoff_ok;
-  wire                                        cfg_trn_pending;
-  wire                                        cfg_pm_halt_aspm_l0s;
-  wire                                        cfg_pm_halt_aspm_l1;
-  wire                                        cfg_pm_force_state_en;
-  wire   [1:0]                                cfg_pm_force_state;
-  wire                                        cfg_pm_wake;
-  wire  [63:0]                                cfg_dsn;
-
   // Flow Control
   wire [2:0]                                  fc_sel;
 
