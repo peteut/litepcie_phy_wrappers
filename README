@@ -1,0 +1,58 @@
+           __   _ __      ___  _________
+          / /  (_) /____ / _ \/ ___/  _/__
+         / /__/ / __/ -_) ___/ /___/ // -_)
+        /____/_/\__/\__/_/   \___/___/\__/
+                    PHY wrappers
+
+           Copyright 2015 / EnjoyDigital
+
+              PHY wrappers for LitePCIe
+
+[> Intro
+---------
+LitePCIe provides a small footprint and configurable PCIe gen1/2 core.
+
+LitePCIe is part of MiSoC libraries whose aims are to lower entry level of
+complex FPGA cores by providing simple, elegant and efficient implementations
+ofcomponents used in today's SoC such as Ethernet, SATA, PCIe, SDRAM Controller...
+
+Current repository provides modified PHY wrappers for PCIe FPGA hardblocks.
+
+Generally you use your vendor toolchain to generate a wrapper for each PCIe
+configuration. Wrappers are here modified to avoid that and to be able to share
+the same code for all configurations. (When possible).
+
+Since wrappers are generated with proprietary software, please have a look at the
+license in the file headers before reusing and modify it.
+
+[> Features
+-----------
+- 7-Series Artix7/Kintex7. (up to PCIe Gen2 X2)
+
+[> Possible improvements
+-------------------------
+- add support for PCIe Gen2 X4 and X8 on 7-Series
+- clean up 7-Series wrappers
+- add Altera/Lattice support
+- ... See below Support and consulting :)
+
+If you want to support these features, please contact us at florent [AT]
+enjoy-digital.fr. You can also contact our partner on the public mailing list
+devel [AT] lists.m-labs.hk.
+
+
+[> Support and consulting
+--------------------------
+We love open-source hardware and like sharing our designs with others.
+
+LitePCIe is developed and maintained by EnjoyDigital.
+
+If you would like to know more about LitePCIe or if you are already a happy user
+and would like to extend it for your needs, EnjoyDigital can provide standard
+commercial support as well as consulting services.
+
+So feel free to contact us, we'd love to work with you! (and eventually shorten
+the list of the possible improvements :)
+
+[> Contact
+E-mail: florent [AT] enjoy-digital.fr
